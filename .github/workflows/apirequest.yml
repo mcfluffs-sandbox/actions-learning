@@ -25,3 +25,4 @@ jobs:
             -d '{"title":"Found a bug","body":"I'\''m having a problem with this.","assignees":["octocat"],"milestone":1,"labels":["bug"]}'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
